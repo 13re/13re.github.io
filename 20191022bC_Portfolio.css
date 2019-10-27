@@ -1,0 +1,423 @@
+	body {
+	/* background-image: url("http://source.unsplash.com/78A265wPiO4"); */
+	 background-image: url("https://i.imgur.com/kpf2XCh.png");
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 color: white;
+	}
+
+/*Navbar*/
+
+	#mainNavbar .navbar-brand {
+		color: olive;
+		font-family: 'Kalam', cursive;
+		font-weight: 400;
+		font-size: 2rem;
+		padding-bottom: 0px;
+	}
+
+	#breTelugu {
+		font-family: 'Sree Krushnadevaraya', serif;
+	}
+
+	.navbar.scrolled {
+	    background: rgb(15,35,1);
+	    transition: background 500ms;
+	}
+
+	#navLink ul.navbar-nav a:hover, #mainNavbar .navbar-brand:hover {
+		text-shadow: 2px 3px 5px rgba(0,0,0,0.2),
+					 2px 6px 10px rgba(27,53,66,0.06),
+					 2px 9px 20px rgba(22,42,53,0.03);
+	}
+
+	/* #whatsappOnly {
+		font-size: .9rem;
+		color: rgb(100,90,20);
+	} 
+
+	#whatsappOnly span {
+		text-decoration: underline;
+		font-weight: bold;
+	} */
+
+/*Intro Row*/
+
+	#avatarImage {
+		margin-top: -60px;
+		margin-bottom: 0px;
+		padding-right: 40px;
+	}
+
+	.introRow {
+	    margin-bottom: 100px;
+	    background-size: 200px;
+	    /*
+	    padding-top: -60px;
+		padding-bottom: -30px;
+		*/
+		background: repeating-linear-gradient(
+  			to right,
+  			rgb(23, 28, 34),
+ 		 	rgb(25, 30, 36) 2px,
+  			rgb(27, 32, 38) 2px,
+  			rgb(27, 32, 38) 4px
+			);
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.3),
+					2px 6px 10px rgba(27,53,66,0.06),
+					2px 9px 20px rgba(22,42,53,0.03);
+	}
+
+	#introText {
+		/*color: rgb(59,76,92);*/
+		/*color: rgb(75,54,35);*/
+		/*color: rgb(2, 7, 13);*/
+		color: rgb(57, 62, 68);
+		/*text-shadow: 2px 3px 5px rgba(34,66,83,0.3),
+					 2px 6px 10px rgba(27,53,66,0.06),
+					 2px 9px 20px rgba(22,42,53,0.03);*/
+		font-size: 2rem;
+		/*padding: 30px 5px 0px 20px;*/
+		/*margin-bottom: 0px;*/
+	}
+
+	#introText #hiMyNameIsBre {
+		/*color: rgb(59,76,92);*/
+		color: rgb(180,180,180);
+		font-weight: 700;
+		font-size:2.2rem;
+	}
+
+	#introText #myNameIsBre {
+		color: #4180A2;
+	}
+
+	.width100 {
+		width: auto;
+		position: relative;
+	}
+
+	#introText #introIcons {
+		/*color: rgb(2, 7, 13);*/
+		color: rgb(57, 62, 68);
+		font-size: 1.4rem;
+		margin-top: 0px;
+	}
+
+	.iconRow {
+		padding: 0px 0px 10px 0px;
+	}
+
+	#laptopVectorImage {
+		padding-left: 20px;
+		padding-bottom: 40px;
+		padding-top: 10px;
+	}
+
+/*Applies to Entire Portfolio*/
+
+	p {
+		/*color: rgb(100,90,20);*/
+		color: rgb(57, 62, 68);
+	}
+
+	h2 {
+		color: black;
+	}
+
+	#webPagesHeader {
+		margin-top: 150px;
+	}
+
+	.sectionHeader {
+		background-image: url(https://i.pinimg.com/originals/1e/e5/bf/1ee5bfb3c6fc839ef31addb8559f3500.png);
+		background-repeat: no-repeat;
+		background-size: 120% 100%;
+		background-position: right;
+ 		background-size: stretch;
+ 		padding: 15px 110px 15px 20px;
+ 		opacity: 0.4;
+ 		font-family: 'Kalam', cursive;
+ 		font-weight: 700;
+	}
+
+	/*
+	.brandHeaderBackground {
+    	width: 100%;
+		background-color: rgb(6,16,0);
+		padding: 4px 10px;
+		opacity: .6;
+	}
+
+	.portfolioText {
+    	width: 100%;
+		background-color: rgba(16,26,2,0.7);
+		padding: 4px 10px;
+	}
+
+	.githubButton {
+		margin-bottom: 10px;
+		color: rgb(125,115,55);
+		background-color: rgb(10,30,4);
+		border: 1px solid rgba(140,130,70,0.1);
+	}
+	*/
+
+	/**/
+	.brandHeaderBackground {
+    	width: 100%;
+		background: repeating-linear-gradient(
+  			rgb(23, 28, 34),
+ 		 	rgb(25, 30, 36) 2px,
+  			rgb(27, 32, 38) 2px,
+  			rgb(27, 32, 38) 4px
+			);
+		padding: 4px 10px;
+	}
+
+	.portfolioText {
+    	width: 100%;
+		background-color: rgba(18, 23, 29);
+		padding: 4px 10px;
+	}
+
+	.githubButton {
+		margin-bottom: 10px;
+		color: rgb(125,115,55);
+		background-color: rgb(27, 32, 38);
+		/*color: rgba(255,255,255,.5);*/
+		/*background-color: rgba(10,30,0,0.6);*/
+		border: 1px solid rgba(140,130,70,0.1);
+	}
+	/**/
+
+	.githubButton:hover {
+		text-decoration: underline;
+		color: rgb(145,135,75);
+		background-color: rgb(33, 38, 44);
+		border: 1px solid rgba(140,130,70,0.2);
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.1),
+					2px 6px 10px rgba(27,53,66,0.06),
+					2px 9px 20px rgba(22,42,53,0.03);
+	}
+
+	.portfolioRow {
+		margin-top: 50px;
+	    margin-bottom: 100px;
+	}
+
+	#portfolioImage {
+		object-fit: cover;
+	    object-position: center;
+	    width: 98%;
+	    height: 98%;
+	    cursor: pointer;
+  	transition: 0.3s;
+  	filter: brightness(85%)
+	}
+
+	#portfolioImage:hover {
+		filter: brightness(110%);
+	}
+
+	.videoImage {
+
+	}
+
+/*Modal Images*/
+
+.noModalBorder {
+	border: none; 
+}
+
+.modal-content {
+  background: rgb(70,70,70);
+  border: 20px solid rgb(20,20,20);
+}
+
+
+.modal-body {
+    max-height: 65vh; 
+    overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+    .modal-body {
+    max-height: 90vh; 
+	}
+}
+
+.modal-body img {
+	width: 100%;
+	border: 2px solid black;
+}
+
+/*Vegan Sweets+Eats*/
+	#veganLogoImage {
+	    height: 1em;
+	}
+
+	#logoVeganSweetsEats {
+		font-family: "Nunito", sans-serif;
+		font-size: 1.4rem;
+	    color: orchid;
+	    font-weight: 400;
+		/*text-shadow: 2px 4px 6px rgba(0,0,0,0.1),
+					 2px 8px 12px rgba(0,0,0,0.1),
+					 2px 12px 24px rgba(0,0,0,0.1);*/
+	}
+
+	#logoVeganSweetsEats span {
+	    font-size: 2rem;
+	    font-weight: 700;
+	}
+
+/*CoderQuest*/
+	#mapIcon {
+		color: white;
+	}
+
+	#logoCoderQuest {
+		font-weight: 400;
+		color: white;
+		/*text-shadow: 2px 4px 6px rgba(250,250,210,0.1),
+			 		 2px 8px 12px rgba(250,250,210,0.1),
+			 		 2px 12px 24px rgba(250,250,210,0.1);*/
+	}
+
+/*LeasedToMeet*/
+
+	#logoLeasedToMeet {
+		color: YellowGreen;
+		font-family: "Libre Franklin";
+		font-size: 30px;
+		/*text-shadow: 2px 4px 6px rgba(50,50,50,0.1),
+					 2px 8px 12px rgba(50,50,50,0.1),
+					 2px 12px 24px rgba(50,50,50,0.1);*/
+		font-weight: 700;
+	}
+
+	#logoLeasedToMeet span {
+		color: teal;
+	}
+
+	.ion-md-home {
+		font-size:22px;
+		vertical-align: text-top;
+	}
+
+	#homeIcon {
+		color: YellowGreen;
+	}
+
+
+/*Animation Projects / Videos Section*/
+
+	.videoSamples {
+		margin-bottom: 50px;
+	}
+
+	#animationProjectsHeader {
+		margin-bottom: 0;
+		margin-top: 150px;
+	}
+
+	.videoPortfolioRow {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.animationVideoHeader {
+		margin-left: 10px;
+		margin-bottom: 30px;
+		color: rgba(100,90,20,0.4);
+		transform: rotate(-10deg);
+		font-family: 'Kalam', cursive;
+	}
+
+	.animationVideoHeader:hover {
+		color: rgba(100,90,20,0.5);
+		text-decoration: underline;
+	}
+
+	#videoImage {
+		padding-left: 50px;
+		filter: brightness(85%);
+	}
+
+	#videoImage:hover {
+		padding-left: 50px;
+		filter: brightness(110%);
+	}
+
+/*Overlay YouTube Embed Video Player: https://codepen.io/vlrprbttst/pen/jBKYBB */
+	.overlay-video {
+	  display: none;
+	  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	  opacity: 0;
+	  -ms-transition: opacity 600ms ease-in;
+	  transition: opacity 600ms ease-in;
+	  -ms-transition: opacity .6s;
+	  transition: opacity .6s;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  height: 100%;
+	  width: 100%;
+	  z-index: 999999;
+	  background: rgba(0,0,0,0.05);
+	}
+
+	.o1 {
+	  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	  opacity: 1;
+	  -ms-transition: opacity 600ms ease-out;
+	  transition: opacity 600ms ease-out;
+	  -ms-transition: opacity .6s;
+	  transition: opacity .6s;
+	}
+
+	.videoWrapperExt {
+	  position: relative;
+	  top: 50%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  max-width: 982px;
+	  padding: 0 20px;
+	}
+
+	.videoWrapper {
+	  position: relative;
+	  padding-bottom: 56.25%;
+	  /* 16:9 */
+	  height: 0;
+	}
+
+	.videoWrapper iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+
+	.closeVideo {
+	 background-image:url(http://djit.ac/assets/images/news/mark.png);
+	  position: absolute;
+	  top: -50px;
+	  right: 0px;
+	  cursor: pointer;
+	  z-index: 9999;
+	  height: 40px;
+	  width: 40px;
+	  background-size: 40px;
+	  @media (max-width: 767px) and (orientation: landscape) {
+	    display: none;
+	  }
+	}
+
+	/* demo purpose */
+	.start {
+	cursor:pointer;}
