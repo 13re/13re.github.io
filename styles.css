@@ -1,0 +1,392 @@
+
+/*------------------------------------*\
+  To use the index below, simply hit 
+  control/CMMD+F & paste the section
+  name, Ex: "#BODY".
+
+  Index:
+
+  	#BODY
+
+  	#NAVBAR
+
+  	#INTRO-ROW
+
+  	#WEB-PORTFOLIO
+  		#WEB-PORTFOLIO-IMAGES
+		#GITHUB-BUTTON
+  		#MODAL-IMAGES
+
+  	#ANIMATION-PROJECTS-/-VIDEO-SECTION
+
+
+\*------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------*\
+  #BODY
+\*------------------------------------*/
+
+body {
+	 background-color: #fdf8f8;
+	 color: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  cursor: hand;
+}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #NAVBAR
+	\*------------------------------------*/
+
+	#mainNavbar .navbar-brand {
+		color: #107896;
+		font-family: 'Kalam', cursive;
+		font-weight: 400;
+		font-size: 2rem;
+		padding-bottom: 0px;
+	}
+
+	#breTelugu {
+		font-family: 'Sree Krushnadevaraya', serif;
+	}
+
+	.navbar.scrolled {
+	    background: snow;
+	    transition: background 500ms;
+	    box-shadow: 1px 2px 3px rgba(34,66,83,0.1);
+	}
+
+	#navLink li .nav-link {
+		color: #107896;
+	}
+		
+	#navLink ul.navbar-nav a:hover, 
+		#mainNavbar .navbar-brand:hover {
+		text-shadow: 2px 3px 5px rgba(34,66,83,0.1);
+		text-decoration: underline;
+		filter: brightness(115%);
+	}
+
+	.navbar-toggler {
+	    border-color: rgb(16,120,150);
+	    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(16,120,150)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    opacity: 1;
+	}
+
+	.navbar-toggler:hover {
+		filter: brightness(115%);	
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.3);
+	}
+
+	.navbar-toggle-color {
+	   background-color: snow;
+	}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #INTRO-ROW
+	\*------------------------------------*/
+
+	/* 	
+	Gives spacing just between the navbar & intro section 
+	There may be a better solution, this was just a quick fix. */
+	#webPagesHeader { 
+		margin-top: 150px;
+	}
+
+	#avatarImage {
+		margin-top: -60px;
+		margin-bottom: 0px;
+		padding-right: 40px;
+		filter: brightness(102%);
+	}
+
+	.introRow {
+	    margin-bottom: 100px;
+	    background-size: 200px;
+		background: repeating-linear-gradient(
+  			to right,
+  			rgb(223, 228, 234),
+ 		 	rgb(225, 230, 236) 2px,
+  			rgb(227, 232, 238) 2px,
+  			rgb(227, 232, 238) 4px
+			);
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.3),
+					2px 6px 10px rgba(27,53,66,0.06),
+					2px 9px 20px rgba(22,42,53,0.03);
+	}
+
+	#introText {
+		color: rgb(57, 62, 68);
+		font-size: 2rem;
+	}
+
+	#introText #hiMyNameIsBre {
+		color: snow;
+		font-weight: 700;
+		font-size:2.2rem;
+		/* background-color: #c03d59; */
+		background-color: #33475c;
+		box-shadow: 0px 0px 5px snow;
+		padding: 4px 10px;
+		border: 1px solid #33475c;
+		border-top-right-radius: 10px;
+	}
+
+	#introText #myNameIsBre {
+		color: #fcd333;
+	}
+
+	.width100 {
+		width: auto;
+		position: relative;
+	}
+
+	#introText #introIcons {
+		color: rgb(57, 62, 68);
+		font-size: 1.4rem;
+		margin-top: 0px;
+	}
+
+	.iconRow {
+		padding: 0px 0px 10px 0px;
+	}
+
+	#laptopVectorImage {
+		padding-left: 20px;
+		padding-bottom: 40px;
+		padding-top: 10px;
+		filter: brightness(115%);
+	}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #WEB-PORTFOLIO
+	\*------------------------------------*/
+
+	.portfolioRow {
+	    margin-bottom: 100px;
+	}
+
+	p, 
+	h3 {
+		color: rgb(57, 62, 68);
+	}
+
+	h2 {
+		color: snow;
+	}
+
+	h3 {
+		vertical-align: text-top;
+	}
+
+	.sectionHeader {
+		background-image: url(images/headerDarkBluePaint.png);
+		background-repeat: no-repeat;
+		background-size: 120% 100%;
+		background-position: right;
+ 		background-size: stretch;
+
+ 		margin-bottom: 50px;
+
+ 		padding: 15px 110px 15px 20px;
+ 		opacity: 0.96;
+ 		font-family: 'Kalam', cursive;
+ 		font-weight: 700;
+	} 
+
+	.portfolioHeaderBox {
+    	width: 100%;
+		background: repeating-linear-gradient(
+  			rgb(223, 228, 234),
+ 		 	rgb(225, 230, 236) 2px,
+  			rgb(227, 232, 238) 2px,
+  			rgb(227, 232, 238) 4px
+			);
+		padding: 4px 10px;
+		box-shadow: 0px 3px 0px rgba(34,66,83,0.15);
+	}
+
+	.portfolioTextBox {
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.1);
+		max-width: 680px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.portfolioText {
+    	width: 100%;
+		background-color: rgba(227,232,238,0.6);
+		padding: 4px 10px;
+	}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #WEB-PORTFOLIO-IMAGES
+	\*------------------------------------*/
+
+		#portfolioImage {
+		object-fit: cover;
+	    object-position: center;
+	    width: 98%;
+	    height: 98%;
+	    cursor: pointer;
+	  	transition: 0.3s;
+	  	filter: brightness(95%);
+	  	opacity: .95;
+	  	margin-bottom: 20px;
+	  	border: 5px solid snow;
+		border-radius: 10px;
+		box-shadow: 2px 3px 10px rgba(34,66,83,0.5);
+	}
+
+	#portfolioImage:hover {
+		filter: brightness(105%);
+		opacity: 1;
+		background-color: #107896;
+		border: 5px solid #107896;
+	}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #GITHUB-BUTTON
+	\*------------------------------------*/
+	.githubButton {
+		margin-bottom: 10px;
+		color: snow;
+		background-color: #107896;
+		border: 2px solid rgba(140,130,70,0.5);
+	}
+
+	.githubButton:hover {
+		text-decoration: underline;
+		color: white;
+		filter: brightness(115%);		
+		border: 2px solid rgba(140,130,70,0.4);
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.3);
+	}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #MODAL-IMAGES
+	\*------------------------------------*/
+
+	.noModalBorder {
+		border: none; 
+	}
+
+	.modal-content {
+	  background: rgb(75,75,75);
+	  border: 20px solid rgb(20,20,20);
+	}
+
+	.modal-content p {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		color: rgb(155,155,155);
+		font-size: 14px;
+		background-color: rgba(227,232,238,0.1);
+		padding: 4px 10px;
+		border: 2px solid rgba(227,232,238,0.3);
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+
+	.modal-body {
+	    max-height: 65vh; 
+	    overflow-y: auto;
+	}
+
+	@media (max-width: 992px) {
+	    .modal-body {
+	    max-height: 90vh; 
+		}
+	}
+
+	.modal-body img {
+		width: 100%;
+		border: 2px solid black;
+	}
+
+
+
+
+
+
+	/*------------------------------------*\
+	  #ANIMATION-PROJECTS-/-VIDEO-SECTION
+	\*------------------------------------*/
+
+	.videoSamples iframe {
+		max-width: 270px;
+		max-height: 160px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+		background-color: black;
+		border: 5px solid snow;
+		border-radius: 10px;
+		box-shadow: 2px 3px 10px rgba(34,66,83,0.5);
+
+	}
+	.videoSamples h3 {
+		text-align: left;
+		display: block;
+		position: relative;
+		top: 0px;
+		height: 40px;
+		width: 270px;
+		background: repeating-linear-gradient(
+  			rgb(223, 228, 234),
+ 		 	rgb(225, 230, 236) 2px,
+  			rgb(227, 232, 238) 2px,
+  			rgb(227, 232, 238) 4px
+			);
+		padding: 4px 10px;
+		border: 1px solid snow;
+		box-shadow: 2px 3px 5px rgba(34,66,83,0.1);
+	}
+
+	.videoSamples iframe:hover {
+		filter: brightness(115%);
+		border: 5px solid #107896;
+	}

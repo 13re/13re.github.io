@@ -1,0 +1,434 @@
+<!doctype html>
+
+
+<!----------------------------------*\
+  To use the index below, simply hit 
+  control/CMMD+F & paste the section
+  name, Ex: "#NAVBAR".
+
+  Index:
+
+    #NAVBAR
+
+    #INTRO
+      #INTRO-ICONS
+
+    #PORTFOLIO-WEB--VEGANSWEETS
+      #MODAL--VEGANSWEETS
+
+    #PORTFOLIO-WEB--CODERQUEST
+      #MODAL--CODERQUEST
+
+    #PORTFOLIO-WEB--LEASEDTOMEET
+      #MODAL--LEASEDTOMEET
+
+
+    #ANIMATION-PROJECTS-/-VIDEO-SECTION
+
+    #JAVASCRIPT-AND-CDN
+
+\*----------------------------------->
+
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Custom Less / CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Kalam:400,700|Libre+Franklin:700|Nunito|Sree+Krushnadevaraya&display=swap&subset=telugu" rel="stylesheet">
+
+    <!--Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Bre</title>
+  </head>
+  
+  <body>
+
+
+
+
+
+
+    <!----------------------------------*\
+      #NAVBAR
+    \*----------------------------------->
+
+    <nav id="mainNavbar" class="navbar navbar-expand-md py-0 fixed-top">
+      <a href="#" class="navbar-brand">Bre <span #breTelugu>బ్రీ</span></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink" aria-label="toggle-navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Nav Links-->
+      <div class="collapse navbar-collapse" id="navLink">
+        <ul class="navbar-nav ml-auto">
+
+          <!--Email-->
+          <li class="nav-item">
+            <a href="mailto:na.peru.bre@gmail.com" target="_blank" class="nav-link icon ion-md-mail"> na.peru.bre@gmail.com</a>
+          </li>
+
+          <!--Github-->
+          <li class="nav-item">
+            <a href="https://github.com/13re" target="_blank" class="nav-link icon ion-logo-github"> github.com/13re</a>
+          </li>
+
+        </ul>
+      </div> <!--/.collapse-->
+    </nav>
+
+    <!--  
+    Gives spacing just between the navbar & intro section 
+    There may be a better solution, this was just a quick fix.-->
+    <div id="webPagesHeader"></div>
+
+
+
+
+
+
+    <!----------------------------------*\
+      #INTRO
+    \*----------------------------------->
+
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-start justify-content-lg-center introRow">
+        <div class="col-6 col-lg-4 col-xl-3">
+          <img id="avatarImage" src="images/vectorAvatar.png"/>
+        </div>
+
+        <!--Laptop image for XS-MD screens-->
+        <div class="col-2 d-lg-none">
+          <img id="laptopVectorImage" src="images/vectorLaptop.png"/>
+        </div>
+        <div class="col-md-11 col-lg-7 col-xl-8 width100">
+
+          <!--"Hi, my name is Bre. I am a coder who cares about..."-->
+          <div class="row align-items-center justify-content-start">
+            <div class="col-md-9 col-lg-8 col-xl-6">
+              <div id="introText"><span id="hiMyNameIsBre">Hi! <span id="myNameIsBre">My name is Bre. </span></span><br> I am a coder who cares about...</div>
+            </div>
+
+            <!--Laptop image for LG-XL screens-->
+            <div class="col-lg-1 col-xl-2 d-none d-lg-inline">
+              <img id="laptopVectorImage" src="images/vectorLaptop.png"/>
+            </div>
+
+          </div> <!--/.row-->
+          
+            <!----------------------------------*\
+              #INTRO-ICONS
+            \*----------------------------------->
+
+            <div class="row iconRow align-items-center justify-content-around justify-content-lg-around justify-content-xl-start" id="introText">
+              
+              <!--Icon: Efficiency-->
+              <div class="col-10 col-lg-3 col-xl-3" id="introIcons">
+                <span class="icon ion-md-flash"> Efficiency</span>
+              </div>
+
+              <!--Icon: Community-->
+              <div class="col-10 col-lg-4 col-xl-3" id="introIcons">
+                <span class="icon ion-md-heart"> Community</span>
+              </div> 
+
+              <!--Icon: Self-Sufficiency-->
+              <div class="col-10 col-lg-5 col-xl-4" id="introIcons">
+                <span class="icon ion-md-body"> Self-Sufficiency</span>
+              </div> 
+
+            </div>  <!--/.row-->
+          </div>    <!--/.row-->
+        </div>      <!--/#introText /.col-->
+      </div>        <!--/.row-->
+    </section>
+
+
+
+
+
+
+    <!----------------------------------*\
+      #PORTFOLIO-WEB--VEGANSWEETS
+    \*----------------------------------->
+
+    <h2 class="sectionHeader">Web Pages Built Using HTML/CSS, Bootstrap & Javascript</h1>
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-md-around justify-content-lg-start ml-xl-5 portfolioRow">
+        <div class="col-sm-12 col-md-9 col-lg-5 col-xl-4">
+          
+          <!-- Image button trigger modal:  Vegan Sweets+Eats-->
+          <img id="portfolioImage" src="images/vectorBrowserVeganSweetsEats.png" alt="" class="img-fluid" role="button" data-toggle="modal" data-target="#modalTargetVegan"/>
+
+        </div> <!--/.col-md-6-->
+
+        <!-- Portfolio Text Box -->
+        <div class="col-sm-12 col-md-10 col-lg-7 col-xl-7">
+          <div class="row justify-content-start mx-1">
+            <div class="portfolioTextBox border border-white rounded">
+              <div class="portfolioHeaderBox">
+                <h3 id="logoVeganSweetsEats">Vegan Sweets+Eats</h3>
+              </div> <!--/.portfolioHeaderBox-->
+
+              <div class="portfolioText">
+                <p>Responsive web page built using HTML/CSS, Bootstrap & Javascript. Used bootstrap grid system container-fluid elements for a responsive design spanning the full-width of the viewport.  Used order classes to change the visual order of text-image pairs based on breakpoints of different screen sizes. Used a media query to change the size of the block of text in the first row. The green leaf vegan logos only display on larger screen sizes. Made navbar background-color change from transparent to dark grey upon scrolling. Added a custom pink navbar toggler to match the logo.</p>
+                <a href="https://github.com/13re/VeganSweetsEats" target="_blank" class="btn btn-sm githubButton">github.com/13re/VeganSweetsEats</a>
+              </div> 
+
+            </div>  <!--/.portfolioTextBox-->
+          </div>    <!--/.row-->
+        </div>      <!--/.col-->
+      </div>        <!--/.row-->
+    </section>
+
+    <!----------------------------------*\
+      #MODAL--VEGANSWEETS
+    \*----------------------------------->
+
+    <div id="modalTargetVegan" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header noModalBorder">
+            <p>Screenshot sample. Not clickable/interactive. Re-size browser screen to view mobile or web sizes.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <!--Modal Image to display on large screens (web-view)-->
+            <img class="d-none d-lg-inline" src="images/modalWebScreenshot_VeganSweetsEats.jpg"/>
+            <!--Modal Image to display on medium & smaller screens (mobile-view)-->
+            <img class="d-lg-none" src="images/modalMobileScreenshot_VeganSweetsEats.jpg"/>
+          </div>
+
+          <div class="modal-footer noModalBorder">
+          </div>
+
+        </div>  <!--/.modal-content-->
+      </div>    <!--/.modal-dialog-->
+    </div>      <!--/#modalTargetVegan-->
+
+
+
+
+
+
+    <!----------------------------------*\
+      #PORTFOLIO-WEB--CODERQUEST
+    \*----------------------------------->
+
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-md-around justify-content-lg-start ml-xl-5 portfolioRow">
+        
+        <!-- Image button trigger modal:  CoderQuest -->
+        <div class="col-sm-12 col-md-9 col-lg-5 col-xl-4">
+          <img id="portfolioImage" src="images/vectorBrowserCoderQuest.png" alt="" class="img-fluid" role="button" data-toggle="modal" data-target="#modalTargetCoderQ"/>
+        </div> <!--/.col-md-6-->
+
+        <!-- Portfolio Text Box -->
+        <div class="col-sm-12 col-md-10 col-lg-7 col-xl-7">
+          <div class="row justify-content-start mx-1">
+            <div class="portfolioTextBox border border-white rounded">
+              <div class="portfolioHeaderBox">
+                <h3 id="logoCoderQuest">CoderQuest</h3>
+              </div> <!--/.portfolioHeaderBox-->
+
+              <div class="portfolioText">
+                <p>Built web page using HTML/CSS & Bootstrap. Used free icons from ionicon. The navbar collapses and uses a toggler on smaller screen sizes. The resume gallery was made using bootstrap cards. </p>
+                <a href="https://github.com/13re/CoderQuest" target="_blank" class="btn btn-sm githubButton">github.com/13re/CoderQuest</a>
+              </div> 
+
+            </div>  <!--/.border-->
+          </div>    <!--/.row-->
+        </div>      <!--/.col-md-6-->
+      </div>        <!--/.row-->
+    </section>
+
+    <!----------------------------------*\
+      #MODAL--CODERQUEST
+    \*----------------------------------->
+
+    <div id="modalTargetCoderQ" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header noModalBorder">
+            <p>Screenshot sample. Not clickable/interactive. Re-size browser screen to view mobile or web sizes.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <!--Modal Image to display on large screens (web-view)-->
+            <img class="d-none d-lg-inline" src="images/modalWebScreenshot_CoderQuest.jpg"/>
+            <!--Modal Image to display on medium & smaller screens (mobile-view)-->
+            <img class="d-lg-none" src="images/modalMobileScreenshot_CoderQuest.jpg"/>
+          </div>
+
+          <div class="modal-footer noModalBorder">
+          </div>
+
+        </div>  <!--/.modal-content-->
+      </div>    <!--/.modal-dialog-->
+    </div>      <!--/#modalTargetCoderQ-->
+
+
+
+
+
+
+    <!----------------------------------*\
+      #PORTFOLIO-WEB--LEASEDTOMEET
+    \*----------------------------------->
+
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-md-around justify-content-lg-start ml-xl-5 portfolioRow">
+        
+        <!-- Image button trigger modal:  LeasedToMeet -->
+        <div class="col-sm-12 col-md-9 col-lg-5 col-xl-4">
+          <img id="portfolioImage" src="images/vectorBrowserLeasedToMeet.png" alt="" class="img-fluid" role="button" data-toggle="modal" data-target="#modalTargetLeasedToM"/>
+        </div> <!--/.col-md-7-->
+
+        <!-- Portfolio Text Box -->
+        <div class="col-sm-12 col-md-10 col-lg-7 col-xl-7">
+          <div class="row justify-content-start mx-1">
+            <div class="portfolioTextBox border border-white rounded">
+              <div class="portfolioHeaderBox">
+                <h3 id="logoLeasedToMeet" href="#">LeasedToMeet</h3>
+              </div> <!--/.portfolioHeaderBox-->
+
+              <div class="portfolioText">
+                <p>Simple landing page built using HTML/CSS & Bootstrap. 3-layer text-shadow added in center to make text stand out against background image.  </p>
+                <a href="https://github.com/13re/LeasedToMeet" target="_blank" class="btn btn-sm githubButton">github.com/13re/LeasedToMeet</a>
+              </div>
+
+             </div> <!--/.border-->
+          </div>    <!--/.row-->
+        </div>      <!--/.col-md-6-->
+      </div>        <!--/.row-->
+    </section>
+
+    <!----------------------------------*\
+      #MODAL--LEASEDTOMEET
+    \*----------------------------------->
+
+    <div id="modalTargetLeasedToM" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header noModalBorder">
+            <p>Screenshot sample. Not clickable/interactive. Re-size browser screen to view mobile or web sizes.</p>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <!--Modal Image to display on large screens (web-view)-->
+            <img class="d-none d-lg-inline" src="images/modalWebScreenshot_LeasedToMeet.jpg"/>
+            <!--Modal Image to display on medium & smaller screens (mobile-view)-->
+            <img class="d-lg-none" src="images/modalMobileScreenshot_LeasedToMeet.jpg"/>
+          </div>
+
+          <div class="modal-footer noModalBorder">
+          </div>
+
+        </div>  <!--/.modal-content-->
+      </div>    <!--/.modal-dialog-->
+    </div>      <!--/#modalTargetLeasedToM-->
+
+
+
+
+
+
+    <!----------------------------------*\
+      #ANIMATION-PROJECTS-/-VIDEO-SECTION
+    \*----------------------------------->
+
+    <h2 id="animationProjectsHeader" class="sectionHeader">Animation Projects Built Using ProcessingJS</h1>
+    <section class="container-fluid">
+      <div class="row align-items-center justify-content-around justify-content-xl-center videoPortfolioRow">
+
+        <!--Video 1: Fish Tank-->
+        <div class="videoSamples col-7 col-sm-5 col-md-4 col-lg-3 mr-3 embed-responsive-4by3">
+          <h3>Fish Tank</h3>
+          <iframe src="https://player.vimeo.com/video/370178389" height="50%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div> 
+
+        <!--Video 2: Varnamala Trace-->
+        <div class="videoSamples col-7 col-sm-5 col-md-4 col-lg-3 mr-3 embed-responsive-4by3">
+          <h3>Varnamala Trace</h3>
+          <iframe src="https://player.vimeo.com/video/370178367" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div> 
+
+        <!--Video 3: Shooting Star-->
+        <div class="videoSamples col-7 col-sm-5 col-md-4 col-lg-4 mr-3 embed-responsive-4by3">
+          <h3>Shooting Star</h3>
+          <iframe src="https://player.vimeo.com/video/370178334" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div> 
+
+        <!--Video 4: Coin Flip-->
+        <div class="videoSamples col-7 col-sm-5 col-md-4 col-lg-3 mr-3 embed-responsive-4by3">
+          <h3>Coin Flip</h3>
+          <iframe src="https://player.vimeo.com/video/370178297" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div>
+
+        <!--Video 5: Football-->
+        <div class="videoSamples col-7 col-sm-5 col-md-4 col-lg-3 mr-3 embed-responsive-4by3">
+          <h3>Football</h3>
+          <iframe src="https://player.vimeo.com/video/370178186" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div> 
+
+        <!--Video 6: Dice Roll-->
+        <div class="videoSamples col-7 col-sm-5 col-md-4 col-lg-4 mr-3 embed-responsive-4by3">
+          <h3>Dice Roll</h3>
+          <iframe src="https://player.vimeo.com/video/370178246" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div> 
+
+      </div> <!--/.row-->
+    </section>
+
+
+
+
+
+
+    <!----------------------------------*\
+      #JAVASCRIPT-AND-CDN
+    \*----------------------------------->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!--Navbar background changes on scroll-->
+    <script>
+      $(function () {
+        $(document).scroll(function(){
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+
+      // Navbar toggler-menu when clicked (toggler background color change)
+      $(".navbar-toggle").click(function(){
+        $("nav").toggleClass("navbar-toggle-color");
+      })
+    </script>
+
+  </body>
+</html>
